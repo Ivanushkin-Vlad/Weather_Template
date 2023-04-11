@@ -32,15 +32,18 @@ body {
     align-items: center;
 
 }
-h2{
+
+h2 {
     display: flex;
     justify-content: center;
 }
-.temp{
+
+.temp {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
+
 .city {
     display: flex;
     justify-content: space-evenly;
@@ -50,14 +53,53 @@ h2{
     color: cornflowerblue;
     font-weight: bold;
 }
-li{
+
+li {
     list-style-type: none;
 }
-.wind{
+
+.wind {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.item{
+
+.item {
     height: 350px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 0px -50px;
+}
+
+.city-name {
+    border: 0;
+    outline: 0;
+    background: #8fd7edb8;;
+    color: #555;
+    padding: 10px 25px;
+    height: 10px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+    width: 140px;
+}
+
+.btn {
+    display: block;
+    border: 0;
+    outline: 0;
+    background: #8fd7edb8;;
+    border-radius: 16px;
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+    color: slategray;
+    font-size: 16px;
+}
+.go{
+    display: flex;
 }
